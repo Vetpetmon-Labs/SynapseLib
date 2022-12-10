@@ -17,8 +17,8 @@ public class SynapseLib {
     public static final String VERSION = "1.0";
     public static final String DEPENDENCIES = "required-after:forge@[14.21.1.2387,)";
 
-    public static final String PROXY_COMMON = "com.vetpetmon.SynapseLib.CommonProxy";
-    public static final String PROXY_CLIENT = "com.vetpetmon.SynapseLib.ClientProxy";
+    public static final String PROXY_COMMON = "com.vetpetmon.synapselib.CommonProxy";
+    public static final String PROXY_CLIENT = "com.vetpetmon.synapselib.ClientProxy";
     public static Logger logger = LogManager.getLogger(MOD_ID);// I am hopefully assuming everyone is using an up-to-date Forge. Otherwise, we're going to run into problems
 
     @Mod.Instance(MOD_ID)
