@@ -5,9 +5,10 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.Objects;
 
 @Mod(modid = SynapseLib.MOD_ID, name = SynapseLib.MOD_NAME, version = SynapseLib.VERSION, dependencies = SynapseLib.DEPENDENCIES)
 public class SynapseLib {
@@ -18,7 +19,7 @@ public class SynapseLib {
 
     public static final String PROXY_COMMON = "com.vetpetmon.SynapseLib.CommonProxy";
     public static final String PROXY_CLIENT = "com.vetpetmon.SynapseLib.ClientProxy";
-    public static Logger logger = LogManager.getLogger(MOD_ID);// I am hopefully assuming everyone is using an up-to-date Forge. Otherwise, we're gonna run into problems
+    public static Logger logger = LogManager.getLogger(MOD_ID);// I am hopefully assuming everyone is using an up-to-date Forge. Otherwise, we're going to run into problems
 
     @Mod.Instance(MOD_ID)
     public static SynapseLib instance;
@@ -39,5 +40,10 @@ public class SynapseLib {
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event) {
         proxy.postInit(event);
+    }
+
+    public static void Initialize(String expectedVersion, String modName) {
+            if (!(Objects.equals(expectedVersion, VERSION)))
+                SynapseLib.logger.error("SynapseLib is on version " + VERSION + ", but " + modName + " expected version " + expectedVersion + ". Any reported errors you experience will be invalidated.");
     }
 }

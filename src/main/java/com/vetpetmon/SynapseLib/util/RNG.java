@@ -21,7 +21,7 @@ public class RNG {
      * This returns a number in that range, inclusive of Min, but exclusive of Max.
      * Exclusive range is good when calling for the size() of an ArrayList, just
      * make sure to have the resulting code look at the actual index position.
-     *
+     * Very much a shortcut function.
      * Use getIntRangeInclu(Min, Max) instead for an inclusive Max value.
      */
     public static int getIntRange(int Min, int Max)
