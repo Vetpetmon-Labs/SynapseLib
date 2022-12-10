@@ -1,4 +1,4 @@
-package com.vetpetmon.SynapseLib.NetworkMessages;
+package com.vetpetmon.synapselib.NetworkMessages;
 
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;

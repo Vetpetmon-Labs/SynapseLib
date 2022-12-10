@@ -1,4 +1,4 @@
-package com.vetpetmon.SynapseLib.NetworkMessages;
+package com.vetpetmon.synapselib.NetworkMessages;
 
 public interface INewChunk {
     int[] getBiomeIDList();

@@ -1,4 +1,4 @@
-package com.vetpetmon.SynapseLib;
+package com.vetpetmon.synapselib;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;

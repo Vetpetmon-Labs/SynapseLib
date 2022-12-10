@@ -1,9 +1,8 @@
-package com.vetpetmon.SynapseLib.ai;
+package com.vetpetmon.synapselib.ai;
 
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.ai.EntityAIBase;
 import net.minecraft.entity.ai.EntityMoveHelper;
-import net.minecraft.entity.monster.EntityGhast;
 
 import java.util.Random;
 

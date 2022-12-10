@@ -1,4 +1,4 @@
-package com.vetpetmon.SynapseLib.ai;
+package com.vetpetmon.synapselib.ai;
 
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.util.math.BlockPos;

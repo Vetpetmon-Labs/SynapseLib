@@ -1,6 +1,6 @@
-package com.vetpetmon.SynapseLib.util;
+package com.vetpetmon.synapselib.util;
 
-import com.vetpetmon.SynapseLib.SynapseLib;
+import com.vetpetmon.synapselib.SynapseLib;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.config.Property;
 

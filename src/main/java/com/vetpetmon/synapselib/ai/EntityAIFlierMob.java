@@ -1,4 +1,4 @@
-package com.vetpetmon.SynapseLib.ai;
+package com.vetpetmon.synapselib.ai;
 
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.ai.EntityAIBase;

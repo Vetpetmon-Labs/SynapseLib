@@ -1,4 +1,4 @@
-package com.vetpetmon.SynapseLib;
+package com.vetpetmon.synapselib;
 
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;

@@ -1,4 +1,4 @@
-package com.vetpetmon.SynapseLib.ai.moveHelpers;
+package com.vetpetmon.synapselib.ai.moveHelpers;
 
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.ai.EntityMoveHelper;

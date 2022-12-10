@@ -1,4 +1,4 @@
-package com.vetpetmon.SynapseLib.NetworkMessages;
+package com.vetpetmon.synapselib.NetworkMessages;
 
 import io.netty.buffer.ByteBuf;
 import net.minecraft.client.Minecraft;

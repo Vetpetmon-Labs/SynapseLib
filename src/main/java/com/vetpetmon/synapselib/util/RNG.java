@@ -1,4 +1,4 @@
-package com.vetpetmon.SynapseLib.util;
+package com.vetpetmon.synapselib.util;
 
 import java.util.concurrent.ThreadLocalRandom;
 
