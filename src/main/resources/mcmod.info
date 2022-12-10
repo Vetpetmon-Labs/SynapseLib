@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "synlib",
+    "name": "SynapseLib",
+    "description": "A helper library for Minecraft.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/Vetpetmon-Labs/SynapseLib",
+    "updateUrl": "https://github.com/Vetpetmon-Labs/SynapseLib",
+    "authorList": ["Iké (Ikae)"],
+    "credits": "Vetpetmon Labs",
+    "parent": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
