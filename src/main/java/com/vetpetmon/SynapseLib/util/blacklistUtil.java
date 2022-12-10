@@ -25,4 +25,20 @@ public class blacklistUtil {
 
 
     }
+
+    //WIP
+    /*public static ArrayList<Item> castToItemBL(String[] nameSpaces) {
+        ArrayList<Item> itemBlackList = new ArrayList<>();
+        List<String> listTemp = Arrays.asList(nameSpaces);
+        ArrayList<Integer> itemIDs =  new ArrayList<Integer>();
+        for (String i: listTemp) {
+            itemIDs.add(Item.getIdFromItem(i));
+        }
+        for (int i:itemIDs) {
+            itemBlackList.add(Item.getItemById(i));
+        }
+        return itemBlackList;
+
+
+    }*/
 }

@@ -42,7 +42,7 @@ public class SynapseLib {
         proxy.postInit(event);
     }
 
-    public static void Initialize(String expectedVersion, String modName) {
+    public static void InitializeSynLib(String expectedVersion, String modName) {
             if (!(Objects.equals(expectedVersion, VERSION)))
                 SynapseLib.logger.error("SynapseLib is on version " + VERSION + ", but " + modName + " expected version " + expectedVersion + ". Any reported errors you experience will be invalidated.");
     }
