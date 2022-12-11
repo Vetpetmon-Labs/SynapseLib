@@ -1,6 +1,6 @@
 package com.vetpetmon.synapselib.util;
 
-import com.vetpetmon.synapselib.SynapseLib;
+import com.vetpetmon.synapselib.synapselib;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.config.Property;
 
@@ -59,8 +59,8 @@ public class CFG {
     public static int catchZero(int value, int def, String category) {
 
         if(value <= 0) {
-            SynapseLib.logger.error(String.format("User error in config: You set a configurable value to 0 or below for: %s.", category));
-            SynapseLib.logger.error(String.format("Error will be caught and set back to %d, but please, read configuration instructions more closely.", def));
+            synapselib.logger.error(String.format("User error in config: You set a configurable value to 0 or below for: %s.", category));
+            synapselib.logger.error(String.format("Error will be caught and set back to %d, but please, read configuration instructions more closely.", def));
             return def;
         }
 

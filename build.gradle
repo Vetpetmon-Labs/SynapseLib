@@ -109,10 +109,10 @@ artifacts {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "synapselib",
+            "Specification-Title": "SynapseLib",
             "Specification-Vendor": "Vetpetmon Labs",
             "Specification-Version": "1", // We are version 1 of ourselves
-            "Implementation-Title": project.name,
+            "Implementation-Title": "synapselib",
             "Implementation-Version": "${project.mcversion}-${version}",
             "Implementation-Vendor" :"vpml",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")

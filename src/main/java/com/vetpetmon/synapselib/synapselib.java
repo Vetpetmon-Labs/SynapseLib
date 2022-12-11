@@ -10,8 +10,8 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.Objects;
 
-@Mod(modid = SynapseLib.MOD_ID, name = SynapseLib.MOD_NAME, version = SynapseLib.VERSION, dependencies = SynapseLib.DEPENDENCIES)
-public class SynapseLib {
+@Mod(modid = synapselib.MOD_ID, name = synapselib.MOD_NAME, version = synapselib.VERSION, dependencies = synapselib.DEPENDENCIES)
+public class synapselib {
     public static final String MOD_ID = "synlib";
     public static final String MOD_NAME = "SynLib";
     public static final String VERSION = "1.0";
@@ -22,7 +22,7 @@ public class SynapseLib {
     public static Logger logger = LogManager.getLogger(MOD_ID);// I am hopefully assuming everyone is using an up-to-date Forge. Otherwise, we're going to run into problems
 
     @Mod.Instance(MOD_ID)
-    public static SynapseLib instance;
+    public static synapselib instance;
 
     @SidedProxy(serverSide = PROXY_COMMON, clientSide = PROXY_CLIENT)
     public static CommonProxy proxy;
@@ -44,6 +44,6 @@ public class SynapseLib {
 
     public static void InitializeSynLib(String expectedVersion, String modName) {
             if (!(Objects.equals(expectedVersion, VERSION)))
-                SynapseLib.logger.error("SynapseLib is on version " + VERSION + ", but " + modName + " expected version " + expectedVersion + ". Any reported errors you experience will be invalidated.");
+                synapselib.logger.error("synapselib is on version " + VERSION + ", but " + modName + " expected version " + expectedVersion + ". Any reported errors you experience will be invalidated.");
     }
 }
